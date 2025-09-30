@@ -1,18 +1,27 @@
 body{
     display: grid;
     place-content: center;
-
     height: 100vh;
     margin: 0;
+    background-color: navy;
 }
 
 
 main{
-    border: 4px solid black;
+    border: 4px solid white;
     padding: 1rem;
-    min-width: 20rem;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     margin-top: 0;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    width: 8rem;
 }
