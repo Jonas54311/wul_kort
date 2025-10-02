@@ -25,3 +25,13 @@ img {
     max-width: 100%;
     width: 8rem;
 }
+
+a {
+    color: rgb(17, 162, 9);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(17, 162, 9);
+    color: navy;
+}
